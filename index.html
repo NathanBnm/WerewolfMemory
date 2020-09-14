@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>JEU DU MEMORY</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="scripts/memory.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/memory.css" />
+</head>
+
+<body>
+    <header>
+        <h1>MEMORY</h1>
+    </header>
+    <main>
+        <section>
+
+            <h2> Les paires à découvrir</h2>
+            <div class="zoneCartes" id="jeuCartes">
+                <div class="carte" data-carte="loup">
+                    <img src="images/carte1.jpg" alt="carte du loup garou" />
+                    <img src="images/dos.jpg" alt="dos de la carte" />
+                </div>
+                <div class="carte" data-carte="loup">
+                    <img src="images/carte1.jpg" alt="carte 1 du loup garou" />
+                    <img src="images/dos.jpg" alt="dos de la carte" />
+                </div>
+                <div class="carte" data-carte="villageois">
+                    <img src="images/carte2.jpg" alt="carte du villageois" />
+                    <img src="images/dos.jpg" alt="dos de la carte" />
+                </div>
+                <div class="carte" data-carte="villageois">
+                    <img src="images/carte2.jpg" alt="carte du villageois" />
+                    <img src="images/dos.jpg" alt="dos de la carte" />
+                </div>
+                <div class="carte" data-carte="cupidon">
+                    <img src="images/carte3.jpg" alt="carte de cupidon" />
+                    <img src="images/dos.jpg" alt="dos de la carte" />
+                </div>
+                <div class="carte" data-carte="cupidon">
+                    <img src="images/carte3.jpg" alt="carte de cupidon" />
+                    <img src="images/dos.jpg" alt="dos de la carte" />
+                </div>
+                <div class="carte" data-carte="voyante">
+                    <img src="images/carte4.jpg" alt="carte de la voyante" />
+                    <img src="images/dos.jpg" alt="dos de la carte" />
+                </div>
+                <div class="carte" data-carte="voyante">
+                    <img src="images/carte4.jpg" alt="carte 4 du jeu de memory" />
+                    <img src="images/dos.jpg" alt="dos de la carte" />
+                </div>
+                <div class="carte" data-carte="sorciere">
+                    <img src="images/carte5.jpg" alt="carte de la sorciere" />
+                    <img src="images/dos.jpg" alt="dos de la carte" />
+                </div>
+                <div class="carte" data-carte="sorciere">
+                    <img src="images/carte5.jpg" alt="carte de la sorciere" />
+                    <img src="images/dos.jpg" alt="dos de la carte" />
+                </div>
+                <div class="carte" data-carte="voleur">
+                    <img src="images/carte6.jpg" alt="carte du voleur" />
+                    <img src="images/dos.jpg" alt="dos de la carte" />
+                </div>
+                <div class="carte" data-carte="voleur">
+                    <img src="images/carte6.jpg" alt="carte du voleur" />
+                    <img src="images/dos.jpg" alt="dos de la carte" />
+                </div>
+                <div class="carte" data-carte="petite fille">
+                    <img src="images/carte7.jpg" alt="carte de la petite fille" />
+                    <img src="images/dos.jpg" alt="dos de la carte" />
+                </div>
+                <div class="carte" data-carte="petite fille">
+                    <img src="images/carte7.jpg" alt="carte de la petite fille" />
+                    <img src="images/dos.jpg" alt="dos de la carte" />
+                </div>
+                <div class="carte" data-carte="chasseur">
+                    <img src="images/carte8.jpg" alt="carte du chasseur" />
+                    <img src="images/dos.jpg" alt="dos de la carte" />
+                </div>
+                <div class="carte" data-carte="chasseur">
+                    <img src="images/carte8.jpg" alt="carte du chasseur" />
+                    <img src="images/dos.jpg" alt="dos de la carte" />
+                </div>
+            </div>
+
+        </section>
+        <section>
+            <h2> Les paires découvertes</h2>
+            <div class="zoneCartes" id="cartesDecouvertes">
+            </div>
+        </section>
+        
+        <div class="popup">
+            <input type="button" value="Une autre partie?" id="btnRecommencer" class="myButton" />
+        </div>
+    </main>
+
+</body>
+
+</html>
